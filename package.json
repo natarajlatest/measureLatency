@@ -1,0 +1,43 @@
+{
+  "name": "performance-NAT",
+  "version": "1.7.0",
+  "description": "Bookmarklet (or browser snippet) to analyze page loading directly on the page (via Resource and Navigation Timing API)",
+  "author": {
+    "name": "Michael Mrowetz",
+    "email": "nataraj.m@mobilelive.ca",
+    "url": "https://github.com/micmro"
+  },
+  "scripts": {
+    "start": "grunt watchDistBookmarklet",
+    "dist": "grunt distAll",
+    "distBookmarklet": "grunt distBookmarklet",
+    "distFirefoxAddon": "grunt distFirefoxAddon",
+    "distChromeExtension": "grunt distChromeExtension",
+    "watchDistFirefoxAddon": "grunt watchDistFirefoxAddon",
+    "watchDistChromeExtension": "grunt watchDistChromeExtension"
+  },
+  "keywords": [
+    "performance",
+    "bookmarklet",
+    "ressource",
+    "timing",
+    "analyzer",
+    "analyser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micmro/performance-bookmarklet"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-babel": "^6.0.0",
+    "grunt-banner": "^0.6.0",
+    "grunt-browserify": "^3.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-version": "^1.1.1",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "license": "MIT"
+}
